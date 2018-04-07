@@ -1,0 +1,333 @@
+*{padding: 0;
+	margin: 0;
+}
+
+body{ overflow-x: hidden;
+	font-family: 'Open Sans' sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing:antialiased !important;
+
+}
+li{ list-style: none;
+	display: inline-block;
+
+}
+
+a{ 
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+ }
+
+ a:hover.
+ a:active{
+ 	text-decoration:none;
+ }
+
+ h1,h2,h4{
+ 		font-family: 'Niconne', cursive;;
+ 		
+ 		font-weight: 700;
+ 		margin-top: 25px;
+ }
+
+ p{
+ 	font-size: 10px;
+ 	line-height: 16px;
+ }
+
+ .btn{
+ 	transition: all 300ms ease-in-out;
+ 	font-weight: 300 !important;
+ 	text-transform: uppercase;
+
+}
+.btn-primary {
+    color:#4d3438;
+    background-color: #1a1300;
+    border-color: #4a4543;
+
+
+ }
+
+ .btn:hover{
+ 		background-color: yellow !important;
+ 		color: #732e39 !important;
+ 		border:1px solid black;
+ }
+
+
+ .navbar{
+ 	background-color: #1a1300;
+ 	text-transform: uppercase;
+ 	font-family: 'PT Sans Narrow', Arial, sans-serif;
+ 	font-weight: 700;
+ }
+
+ .navbar a{
+
+ 			color: white !important;
+ 			opacity: 0.7;
+ }
+
+ .navbar a:hover{
+ 	opacity: 1;
+ 	background-color: #cc9900 !important;
+ }
+
+ .header{
+ 	
+ 	padding: 30px 0 30px;
+ 	margin-top: 50px;
+ 	 color: white;
+ 	 background-attachment: fixed;
+ 	background-image: url('../img/wdf.jpg');
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+ }
+
+ .header img{
+ 	height:500px;
+ 	width: 900;
+ 	margin: 70px 10 0 40px;
+ }
+
+ .header h1{
+ 		font-size: 40px;
+ 		font-weight: 700;
+ 		padding-top: 30px;
+ }
+.header h1, header p, .header button{
+	margin-top: 20px;
+}
+.header .btn{
+		margin: 30px 20px;
+}
+
+@media (max-width: 760px){
+	.header{
+		padding: 30px;
+		height: 750px;
+	}
+	.header img{
+		width: 90%;
+		height: 300px;
+		margin: 20px 0 0 20px;
+
+	}
+	.header .btn{
+		font-size: 10px;
+		margin-left: 20PX;
+	}
+	.header h1{
+		font-size: 20px;
+	}
+	.header p{
+		font-size: 10px;
+	}
+}
+/*services*/
+.services{
+	padding: 80px 0 80px;
+	text-align: center;
+	background-image: url('../img/capture.png');
+	opacity: 0.5
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.services h2, .services h4{
+	color:#4d3438;
+	margin: 5px 0 20px;
+}
+
+ .services p{
+ 	color:#4d3438;
+ 	font: 40px;
+ 	padding-bottom: 40px;
+ }
+
+  .services p{
+  	color: brown;
+  	font-size: 14px;
+  	padding-bottom: 30px;
+
+  }
+.services i{
+	height: 80px;
+	width: 80px;
+	font-size: 30px;
+	padding:25px 20px;
+	border-radius:30px;
+	background-color:#1a1300;
+	color: white;
+
+}
+
+#contact-form {
+   background-color:rgba(72,72,72,0.7);
+   padding:0px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:15px;
+   margin-left: -260px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+}
+
+#contact-form h2,h2,h4{
+	padding-top: 20px;
+}
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea,   
+#contact-form label { 
+   font-size: 15px;  
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+} 
+#contact-form input,   
+#contact-form select,   
+#contact-form textarea { 
+   width:100%;
+   background: #fff;
+   border: 0; 
+   -moz-border-radius: 4px;  
+   -webkit-border-radius: 4px;  
+   border-radius: 4px;
+   margin-bottom: 25px;  
+   padding: 5px;  
+}  
+#contact-form input:focus,   
+#contact-form select:focus,   
+#contact-form textarea:focus {  
+   background-color: #E5E6E7; 
+}  
+#contact-form textarea {
+   width:100%;
+   height: 150px;
+}
+#contact-form button[type="submit"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+   background:#991D57;
+   background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+   background-image:-moz-linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+   background-image:-webkit-linear-gradient(bottom, #6c9c7f 0%, #8a7f5d 52%);
+   color:#FFF;
+   margin:0 0 5px;
+   padding:10px;
+   border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+   background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   -webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+input:required, textarea:required {  
+   box-shadow: none;
+   -moz-box-shadow: none;  
+   -webkit-box-shadow: none;  
+   -o-box-shadow: none;  
+} 
+#contact-form .required {  
+   font-weight:bold;  
+   color: #E5E6E7;      
+}
+
+/* Hide success/failure message
+   (especially since the php is missing) */
+#failure, #success {
+   color: #6EA070; 
+   display:none;  
+}
+
+/* Make form look nice on smaller screens */
+@media only screen and (max-width:705px) {
+   #contact-form{
+      left: 3%;
+      margin-right: 3%;
+      width: 88%;
+      margin-left: 0;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+}
+ /*pricing*/
+
+.pricing {
+	    padding: 50px 0 80px;
+	    text-align: center;
+	    background-color:#77715d; 
+ }
+.pricing h2, 
+.pricing p{
+	color: #fff;
+}
+
+.pricing p {
+	padding-bottom: 40px;
+}
+
+.pricing .packages{
+	padding: 30px;
+	border: 1px solid #f0cfcf;
+	background-color:#1a1300;
+	border-radius: 50px;
+	margin-top: 30px;
+	color: wheat;
+}
+
+.packages li{
+	display: block;
+	padding: 5px;
+}
+
+.packages h4, .packages h1, .packaged b{
+	color: pink;
+}
+
+.packages p, .packages li{
+   columns:white;
+}
+.packages button{
+	margin-top: 10px;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #77715d;
+    border-color: #4a4543;}
+
+
+
+    @media (max-width: 705px;){
+    	.pricing{
+    		padding: 30px;
+    	}
+    	.packages{
+    		width: 80%;
+    		margin-left: 25px;
+    	}
+    }
+
+    /*footer*/
+
+    .footer{
+    	padding: 300px;
+    	color: black;
+    	color: white;	
+
+    }

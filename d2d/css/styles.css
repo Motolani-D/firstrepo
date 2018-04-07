@@ -1,0 +1,157 @@
+*{padding: 0;
+	margin: 0;
+}
+
+body{ overflow-x: hidden;
+	font-family: 'Open Sans' sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing:antialiased !important;
+
+}
+li{ list-style: none;
+	display: inline-block;
+
+}
+
+a{ 
+	text-decoration: none;
+	transition: all 500ms ease-in-out;
+ }
+
+ a:hover.
+ a:active{
+ 	text-decoration:none;
+ }
+
+ h1,h2,h4{
+ 		font-family: 'Niconne', cursive;;
+ 		text-align: center;
+ 		font-weight: 700;
+ 		margin-top: 25px;
+ }
+
+ .header{
+ 	   background-color:#c6a303;
+ 	   height:30%;
+ }
+
+ 
+
+ 
+ .container-fluid{
+ 	font-size: 10px;
+ 	line-height: 16px;
+ }
+
+ .btn{
+ 	transition: all 300ms ease-in-out;
+ 	font-weight: 300 !important;
+ 	text-transform: uppercase;
+
+}
+.btn-primary {
+    color:white;
+    background-color:#0a382e;
+    border-color: #4a4543;
+
+
+ }
+  .container-fluid{
+ background-color: pink
+  	height:500px;
+  }
+ .btn:hover{
+ 		background-color:#a3d1c7 !important;
+ 		color: #732e39 !important;
+ 		border:1px solid green;
+ }
+
+
+ .navbar{
+ 	opacity: 1;
+ 	background-color:#0a382e;
+ 	text-transform: uppercase;
+ 	font-family: 'PT Sans Narrow', Arial, sans-serif;
+ 	font-weight: 700;
+ }
+
+ .navbar a{
+
+ 			color: white !important;
+ 			opacity: 1;
+ }
+
+ .navbar a:hover{
+ 	opacity: 1;
+ 	background-color: #cc9900 !important;
+ }
+
+ .img {
+    width: 100%;
+    height:500px;
+    background-color:pink;
+}
+   .container-fluid{
+	background-color: #0a382e;
+	height: 60%;
+
+
+}
+	.box1{
+		background-color:#0a382e;
+		 height: 200px;
+		 width: 350px; 
+		  display: inline-block; 
+		  margin:10px;
+        border: 1px solid grey; 
+        color: white; padding: 15px;
+        margin-bottom: 50px;
+        border-radius: 0px 0px 0px 40px;
+	}
+
+	.box2{
+
+		background-color:#0a382e;
+		 height: 200px;
+		 width: 350px; 
+		  display: inline-block; 
+		  margin:10px;
+        border: 1px solid grey; 
+        color: white; padding: 15px;
+	
+	}
+
+	.box3{
+		background-color:#0a382e;
+		 height: 200px;
+		 width: 350px; 
+		  display: inline-block; 
+		  margin:10px;
+        border: 1px solid grey; 
+        color: white; padding: 15px;
+        border-radius: 0px 0px 40px 40px;
+	}
+
+    .col-md-6{
+    	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+
+
+
+@media only screen and (){
+	.boxes{
+		width: 100%;
+	}
+}
+
+
+
+
+.footer{
+	padding: 30px;
+	color: white;
+}
